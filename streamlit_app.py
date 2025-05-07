@@ -61,5 +61,5 @@ pivot = filtered_df.pivot_table(index="이름", columns="투자 조건", values=
 # 🎨 강조 스타일 적용
 styled = pivot.style.highlight_max(axis=1, color="#ffeeba")
 
-# 📋 표시
+# 📋 표시해야지 
 st.dataframe(styled, use_container_width=True)
